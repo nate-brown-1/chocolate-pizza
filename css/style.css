@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+header section {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#titleBar {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #aaa;
+}
+
+#iconLists {
+  display: flex;
+  justify-content: space-between;
+}
+.linkIcons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
