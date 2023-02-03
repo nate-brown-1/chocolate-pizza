@@ -23,12 +23,29 @@ h2 {
   color: #aaa;
 }
 
+header ul:first-of-type {
+  margin-right: 10px;
+}
+
+
+
 #iconLists {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-.linkIcons {
+
+
+.listIcons {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
+}
+
+.repeatingBorder {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+  height: 25px;
+  background-image: url("../img/hr-img.png");
 }
