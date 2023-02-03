@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+}
+
+header section {
+  margin: auto;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#titleBar {
+  display: flex;
+}
+
+h1 {
+  font-family: 'Kaushan Script', cursive;
+  font-size: 2rem;
+}
+
+h2 {
+  font-family:Arial, Helvetica, sans-serif;
+  color: #aaa;
+}
+
+header ul:first-of-type {
+  margin-right: 10px;
+}
+
+
+
+#iconLists {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.listIcons {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.repeatingBorder {
+  margin: auto;
+  margin-top: 30px;
+  width: 900px;
+  height: 25px;
+  background-image: url("../img/hr-img.png");
+}
