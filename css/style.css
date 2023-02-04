@@ -11,6 +11,8 @@ header section {
 
 #titleBar {
   display: flex;
+  width: 340px;
+  justify-content: space-between;
 }
 
 h1 {
@@ -19,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-family:Arial, Helvetica, sans-serif;
+  font-family: ‘Wire One’, sans-serif;
   color: #aaa;
 }
 
@@ -69,6 +71,7 @@ main {
   margin: auto;
   flex-wrap: wrap;
 }
+
 #postedDate {
   color: grey;
 }
@@ -102,10 +105,37 @@ article p {
 form {
   width: 325px;
   margin: auto;
-  font-family: "Patrick Hand", cursive;
+  font-family: ‘Patrick Hand’, cursive;
   font-size: 1.5rem;
 }
 
 .form-group {
   display: flex;
+}
+
+#bottomLine {
+  border-bottom: 1px solid lightgrey;
+  margin: auto;
+  width: 900px;
+}
+
+#lineSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#lineSection img {
+  position: absolute;
+  padding: 10px;
+  background: white;
+}
+
+#copyright {
+  height: 125px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: lightgrey;
 }
